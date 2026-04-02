@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PermiakovaTK")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33b46a8785a17305b867d3ddad3cc580cb6d16e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PermiakovaTK")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PermiakovaTK")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

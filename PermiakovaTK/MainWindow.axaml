@@ -22,17 +22,17 @@
         <Border Grid.Row="0" Grid.Column="1" BorderBrush="Gray" BorderThickness="3" Margin="10,10,10,10" CornerRadius="6">
             <StackPanel Orientation="Vertical" Spacing="6" Margin="10,10,10,10">
                 <TextBlock Text="Комфортабельность"/>
-                <CheckBox>Плацкарт</CheckBox>
-                <CheckBox>Купе</CheckBox>
-                <CheckBox>Полулюкс</CheckBox>
-                <CheckBox>Люкс</CheckBox>
+                <CheckBox x:Name="ReservedSeat">Плацкарт</CheckBox>
+                <CheckBox x:Name="Coupe">Купе</CheckBox>
+                <CheckBox x:Name="JuniorSuite">Полулюкс</CheckBox>
+                <CheckBox x:Name="Luxury">Люкс</CheckBox>
             </StackPanel>
         </Border>
         
         <Border Grid.Row="1" Grid.Column="0" BorderBrush="Gray" BorderThickness="3" CornerRadius="6" Margin="10,10,10,10">
             <StackPanel Orientation="Vertical" Spacing="10" Margin="10,10,10,10">
                 <TextBlock Text="Стоимость билетов с учетом комфортабельности"/>
-                <TextBox Watermark="Рассчитаная стоимость билетов"/>
+                <TextBox Watermark="Рассчитаная стоимость билетов" x:Name="ResultBox"/>
             </StackPanel>
         </Border>
         

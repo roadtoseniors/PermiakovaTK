@@ -71,3 +71,4 @@ C:\Users\kekmaster\RiderProjects\PermiakovaTK\PermiakovaTK\obj\Debug\net9.0\refi
 C:\Users\kekmaster\RiderProjects\PermiakovaTK\PermiakovaTK\obj\Debug\net9.0\PermiakovaTK.pdb
 C:\Users\kekmaster\RiderProjects\PermiakovaTK\PermiakovaTK\obj\Debug\net9.0\PermiakovaTK.genruntimeconfig.cache
 C:\Users\kekmaster\RiderProjects\PermiakovaTK\PermiakovaTK\obj\Debug\net9.0\ref\PermiakovaTK.dll
+C:\Users\kekmaster\RiderProjects\PermiakovaTK\PermiakovaTK\obj\Debug\net9.0\PermiakovaTK.sourcelink.json
