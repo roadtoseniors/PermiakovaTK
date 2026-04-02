@@ -1,0 +1,46 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="PermiakovaTK.MainWindow"
+        Title="PermiakovaTK">
+    <Grid RowDefinitions="*, Auto" ColumnDefinitions="*, Auto">
+        <Border BorderBrush="Gray" BorderThickness="3" Grid.Row="0" Grid.Column="0" Margin="10,10,10,10" CornerRadius="6">
+            <StackPanel Orientation="Vertical" Spacing="10" Margin="10,10,10,10" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <TextBlock Text="Расстояние (км)" FontSize="25"/>
+                    <TextBox x:Name="Lenght" Watermark="Введите расстояние"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Spacing="10">
+                    <TextBlock Text="Количество билетов" FontSize="25"/>
+                    <TextBox x:Name="Quantity" Watermark="Введите количество"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+        
+        <Border Grid.Row="0" Grid.Column="1" BorderBrush="Gray" BorderThickness="3" Margin="10,10,10,10" CornerRadius="6">
+            <StackPanel Orientation="Vertical" Spacing="6" Margin="10,10,10,10">
+                <TextBlock Text="Комфортабельность"/>
+                <CheckBox>Плацкарт</CheckBox>
+                <CheckBox>Купе</CheckBox>
+                <CheckBox>Полулюкс</CheckBox>
+                <CheckBox>Люкс</CheckBox>
+            </StackPanel>
+        </Border>
+        
+        <Border Grid.Row="1" Grid.Column="0" BorderBrush="Gray" BorderThickness="3" CornerRadius="6" Margin="10,10,10,10">
+            <StackPanel Orientation="Vertical" Spacing="10" Margin="10,10,10,10">
+                <TextBlock Text="Стоимость билетов с учетом комфортабельности"/>
+                <TextBox Watermark="Рассчитаная стоимость билетов"/>
+            </StackPanel>
+        </Border>
+        
+        <Border Grid.Row="1" Grid.Column="1" BorderBrush="Gray" BorderThickness="3" CornerRadius="6" Margin="10,10,10,10">
+            <StackPanel Orientation="Vertical" Margin="10,10,10,10" 
+                        HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="Calculate" Content="Вычислить" Background="LightGreen" Click="Calculate_OnClick"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
